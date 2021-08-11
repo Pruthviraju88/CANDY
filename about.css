@@ -1,0 +1,159 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+        border-spacing: 0;
+}
+html{
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+body{
+    background-color: #f5d9d5;
+    font-family:'Nunito',sans-serif;
+	padding: 0;
+}
+#mainNavbar .navbar-brand{
+color: #ea1c2c;
+font-size:1.5rem;
+font-weight:100;
+
+}
+.search{
+	color: #f498b8;
+}
+.search:hover{
+	background-color: #f5d9d5;
+}
+#mainNavbar{
+	font-size:1.5rem;
+font-weight:100;
+}
+#mainNavbar .nav-link{
+color: white;
+
+}
+#mainNavbar .nav-link:hover{
+	color:#ea1c2c;
+}
+#heading1{
+    padding: 15px 25px;
+margin: 10px 15px;
+}
+#parah{
+    font-family: 'Style Script', cursive;
+    font-size: 2rem;
+    color:black;
+    font-weight:100;
+    line-height: 1.5;
+    letter-spacing:2px;
+
+}
+#he1{
+    font-family: 'Nunito',sans-serif;
+    font-size: 4rem;
+    color: #ea1c2c;
+    font-weight:100;
+   margin-bottom: 40px;
+
+}
+
+.main{
+    background: url(imgs/gumball.png);
+    padding: 0;
+    
+
+}
+.foot{
+    background-color:lightblue;
+    color:black;
+    font-family: 'Nunito',sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    overflow-y: hidden;
+  
+}
+.search{
+	color: #f498b8;
+  margin-top: 5px;
+}
+.search:hover{
+	background-color: #f5d9d5;
+}
+.navbar.scrolled{
+	background-color:#dec0de;
+	transition:background 0.5s;
+}
+
+@media(max-width:578px){
+    #mainNavbar .nav-link{
+        color:black;
+    }
+    #parah{
+        margin-top: 10px;
+        font-size:1rem;
+        font-family:Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+    }
+    #he1{
+        font-size:  2.5rem;
+        margin-top: 60px;
+        margin-bottom: 30px;
+
+    }
+    .foot{
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+    #mainNavbar{
+     
+        background-color:#f5d9d5;
+    }
+    #main1{
+        padding-right: 0px;
+    }
+    .c1{
+		padding:0;
+		margin: 0;
+	overflow-x:hidden;
+    
+}
+   
+}
